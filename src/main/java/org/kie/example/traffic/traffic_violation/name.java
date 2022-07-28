@@ -6,12 +6,23 @@ package org.kie.example.traffic.traffic_violation;
 
 public class name implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public name() {
-    }
+	private java.lang.String dog;
 
+	public name() {
+	}
 
+	public java.lang.String getDog() {
+		return this.dog;
+	}
 
+	public void setDog(java.lang.String dog) {
+		this.dog = dog;
+	}
+
+	public name(java.lang.String dog) {
+		this.dog = dog;
+	}
 
 }
