@@ -10,6 +10,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.String dog;
 
+	private java.lang.String cat;
+
 	public test() {
 	}
 
@@ -21,8 +23,17 @@ public class test implements java.io.Serializable {
 		this.dog = dog;
 	}
 
-	public test(java.lang.String dog) {
+	public java.lang.String getCat() {
+		return this.cat;
+	}
+
+	public void setCat(java.lang.String cat) {
+		this.cat = cat;
+	}
+
+	public test(java.lang.String dog, java.lang.String cat) {
 		this.dog = dog;
+		this.cat = cat;
 	}
 
 }
